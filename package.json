@@ -1,0 +1,37 @@
+{
+  "name": "big-pug-loan-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.39.0",
+    "@mikro-orm/core": "^6.4.11",
+    "@mikro-orm/reflection": "^6.4.11",
+    "@mikro-orm/sqlite": "^6.4.11",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "eventemitter2": "^6.4.9",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "inversify": "^7.2.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@amiceli/vitest-cucumber": "^4.7.0",
+    "@mikro-orm/cli": "^6.4.11",
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "type": "module"
+}
